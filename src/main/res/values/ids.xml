@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="dialog_date_picker" type="id" />
+    <item name="invoice_view_pager" type="id" />
+    <item name="fragment_container" type="id" />
+    <item name="show_help" type="id" />
+    <item name="new_invoice" type="id" />
+</resources>

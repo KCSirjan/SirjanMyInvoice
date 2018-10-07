@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp">
+    <TextView
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="invoice_title_label" />
+    <EditText
+        android:id="@+id/invoice_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="invoice_title_hint"/>
+    <TextView
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="invoice_type" />
+
+    <RadioGroup
+        android:id="@+id/invoice_radio_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Home"
+            android:id="@+id/invoice_type1"
+            android:textColor="@android:color/holo_blue_dark"
+            android:checked="false" />
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Clothes"
+            android:id="@+id/invoice_type2"
+            android:checked="false"
+            android:textColor="@android:color/holo_blue_dark"/>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Stationery"
+            android:id="@+id/invoice_type3"
+            android:checked="false"
+            android:textColor="@android:color/holo_blue_dark" />
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Electronics"
+            android:id="@+id/invoice_type4"
+            android:textColor="@android:color/holo_blue_dark"
+            android:checked="false"/>
+
+    </RadioGroup>
+
+
+
+    <TextView        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="invoice_shop_name"/>
+    <EditText
+        android:id="@+id/invoice_shop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="invoice_shop_name_hint"/>
+    <TextView        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="/invoice_comment"/>
+    <EditText
+        android:id="@+id/invoice_cmnt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="invoice_comment_hint"/>
+    <TextView        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="invoice_location"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/invoice_camera"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="invoice_image"/>
+        <Button
+            android:id="@+id/invoice_photo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="photo"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/invoice_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <CheckBox
+
+        android:id="@+id/invoice_solved"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="invoice_solved_label"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/save_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="save"/>
+
+        <Button
+            android:id="@+id/delete_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="delete_invoice"/>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="invoice_map"
+            android:id="@+id/invoice_map"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SirjanInvoice</string>
+    <string name="date_picker_title" />
+    <string name="type_picker_title" />
+</resources>
